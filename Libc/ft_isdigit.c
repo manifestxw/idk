@@ -1,4 +1,4 @@
-int	ft_isdigit(char a)
+int	ft_isdigit(int a)
 {
 	if (a >= 48 && a <= 57)
 		return (1);
