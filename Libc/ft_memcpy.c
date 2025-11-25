@@ -1,4 +1,6 @@
-void	*st_memcpy(void *a, void *b, size_t n)
+#include "libft.h"
+
+void	*ft_memcpy(void *a, void *b, size_t n)
 {
 	unsigned char	*sa;
 	unsigned char	*sb;
@@ -6,6 +8,6 @@ void	*st_memcpy(void *a, void *b, size_t n)
 	sa = (unsigned char *)a;
 	sb = (unsigned char *)b;
 	while (n-- > 0)
-		sa++ = sb++;
+		*sa++ = *sb++;
 	return (a);
 }
