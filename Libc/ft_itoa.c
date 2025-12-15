@@ -6,7 +6,7 @@
 /*   By: ybarakat <ybarakat@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/01 10:38:28 by ybarakat          #+#    #+#             */
-/*   Updated: 2025/12/01 10:38:31 by ybarakat         ###   ########.fr       */
+/*   Updated: 2025/12/15 14:01:07 by ybarakat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,28 +60,3 @@ char	*ft_itoa(int n)
 	}
 	return (a);
 }
-/*
-#include <stdio.h>
-#include "libft.h"
-
-int main(void)
-{
-    int test_values[] = {0, 1, -1, 42, -42, 2147483647, -2147483648};
-    size_t i;
-    char *str;
-
-    for (i = 0; i < sizeof(test_values)/sizeof(int); i++)
-    {
-        str = ft_itoa(test_values[i]);
-        if (str)
-        {
-            printf("ft_itoa(%d) = \"%s\"\n", test_values[i], str);
-            free(str);
-        }
-        else
-            printf("ft_itoa(%d) failed to allocate memory\n", test_values[i]);
-    }
-
-    return 0;
-}
-*/

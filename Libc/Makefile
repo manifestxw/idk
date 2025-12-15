@@ -1,10 +1,10 @@
 NAME = libft.a
 
-CC = gcc
+CC = cc
 
-EORRORFLAGS = -Wall -Wextra -werror
+CFLAGS = -Wall -Wextra -Werror
 
-SRC = ft_isalpha.c
+SRC = ft_isalpha.c\
 ft_isdigit.c\
 ft_isalnum.c\
 ft_isascii.c\
@@ -56,7 +56,7 @@ $(NAME): $(OBJ)
 	ar rcs $(NAME) $(OBJ)
 
 %.o: %.c libft.h
-	$(CC) $(ERRORFLAGS) -c $< -o $@
+	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
 	rm -f $(OBJ)
