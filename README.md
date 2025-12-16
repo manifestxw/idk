@@ -1,0 +1,1 @@
+![](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FOGPBackroom%2Fcomments%2F1aor68x%2Fold_people_standing_and_staring_at_you_in_silence%2F&ved=0CBUQjRxqFwoTCNjgp4v1wZEDFQAAAAAdAAAAABAI&opi=89978449)
