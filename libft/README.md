@@ -9,48 +9,43 @@ This library serves as a personal toolkit for future 42 projects, allowing reuse
 
 ## Instructions
 
-### Compilation
-To compile the library:
+1. **Compilation**  
+   - Run the Makefile:  
+     ```bash
+     make
+     ```
+   -  This builds the static library that you can link to your projects.
 
-```bash
-make
+2. **Usage**  
+   - Include the library header in your C files:
+     ```c
+     #include "libft.h"
+     ```
+   - Link the library during compilation:
+     ```bash
+     cc main.c libft.a -o my_program             # main.c is your file
+     ```
 
-This will generate libft.a which can be linked with your projects.
+3. **Cleaning**  
+   - Remove object files and the library:
+     ```bash
+     make fclean
+     ```
 
-Usage
+4. **Recompilation**  
+   - Recompile the library from scratch:
+     ```bash
+     make re
+     ```
 
-Include the library header in your C files:
-
-#include "libft.h"
-
-
-Link the library during compilation:
-
-gcc main.c -L. -lft -o my_program
-
-Cleaning
-
-Remove object files and the library:
-
-make fclean
-
-
-Recompile the library from scratch:
-
-make re
-```
 ## Resources
 
-C Standard Library Documentation
+- [C Standard Library Documentation](https://man7.org/linux/man-pages/man3/)
+- [GNU C Library Reference](https://www.gnu.org/software/libc/manual/)
+- [Learn C - Linked Lists](https://www.learn-c.org/en/Linked_lists)
+- [Makefile Tutorial](https://makefiletutorial.com/)
 
-GNU C Library Reference
+#### AI Usage:
 
-'https://www.learn-c.org/en/Linked_lists'
- 
-'https://makefiletutorial.com/' 
-
-AI Usage:
-
-Explaining function behavior
-
-Reviewing and correcting Norminette
+- Explaining function behavior
+- Reviewing and correcting Norminette
